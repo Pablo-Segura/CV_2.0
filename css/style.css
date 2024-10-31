@@ -1,0 +1,32 @@
+.titulo{
+    background-color: palevioletred;
+    height: 75px;
+}
+h2{
+    background-color: palevioletred;
+    height: 60px;
+}
+body{
+    background-color: violet;
+}
+.foto{
+    width: 320px;
+    height: 200px;
+}
+legend{
+    font-size: x-large;
+}
+textarea{
+    box-shadow: 0px 0px 10px aquamarine,
+    0px 0px 10px aquamarine inset;
+}
+
+caption{
+    font-size: x-large;
+}
+th{
+    font-size: large;
+}
+.inicio{
+    font-size: larger;
+}

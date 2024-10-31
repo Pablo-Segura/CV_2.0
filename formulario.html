@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <form action="proceso.php" method="post">
+        <fieldset>
+
+            <legend><b>Datos Personales</b></legend>
+
+            <p>Nombre: <input type="text" size="30x" required></p>
+            <p>Apellidos: <input type="text" size="29px" required></p>
+            <p>Edad: <input type="number" min="0"></p>
+
+            <p>Género:</p>
+            <input type="radio" name="sexo" value="h">Hombre
+            <input type="radio" name="sexo" value="m">Mujer
+        </fieldset>
+    
+
+
+    
+        <fieldset>
+
+            <legend><b>Contacto</b></legend>
+            <p>Correo electrónico: <input type="email" size="20px"></p>
+            <p>Código postal: <input type="number" size="50px"></p>
+            <p>Dirección: <input type="text" size="30px"></p>
+            <p>Ciudad: <select>
+                    <option value="1">Jaén</option>
+                    <option value="2">Linares</option>
+                    <option value="3">Úbeda</option>
+                </select></p>
+            <p>Contraseña <input type="password" size="30px" minlength="8" required></p>
+        </fieldset>
+    
+    
+
+
+
+<fieldset>
+    <legend><b>Datos de Interes</b></legend>
+    <p>Estado Civil:</p>
+            <input type="radio" value="casado">Casado
+            <input type="radio" value="no casado">No casado
+            <p>Hobbies: </p>
+                <p><input type="checkbox">Deporte</p>
+                <p><input type="checkbox">Cine</p>
+                <p><input type="checkbox">Lectura</p>
+                <p><input type="checkbox">Correr</p>
+                <p><input type="checkbox">Videojuegos</p>
+</fieldset>
+
+
+
+
+ 
+<fieldset>
+    <legend><b>Comentarios Adicionales</b></legend>
+<p>Escribe tus comentarios aquí:</p>
+ <textarea style="font-size: 15px;" rows="4" cols="27" placeholder="Escribe tu comentario aqui..."></textarea> 
+</fieldset>  
+ <br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Resetear">
+<p><a class="inicio" href="index.html" target="_self">Volver al inicio</a></p>
+<br>
+</form>
+</body>
+</html>
